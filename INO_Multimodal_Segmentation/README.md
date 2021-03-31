@@ -29,7 +29,8 @@ Updated the following parameters:
 - File used to determine the untransfected lifetime (donor_filename)<br> 
 In our case, we provide the filename for untransfected well collected using Configuration 2. 
 <br> 
-**CRITICAL** the script expects the data to be all stored in a single folder. The file time stamp is used to ensure that Configuration1 and Configuration2 scans are ordered consectively. 
+**CRITICAL** <br>
+the script expects the data to be all stored in a single folder. The file time stamp is used to ensure that Configuration1 and Configuration2 scans are ordered consectively.<br>
 Run the scripts
 
 ### Script Optimization
@@ -111,4 +112,26 @@ These serve as seeds for the watershed algorithm. Larger elements lead to larger
 - segmentation_parameters.min_roi_size is the size of the smallest binary object in the segmentatin map
 -  segmentation_parameters.erode (mainly used for DRAQ5 to make sure that we are not too close to other organelle borders).
 
-   
+Run scripts and go get a cup of java :coffee: <br>
+**CRITICAL** <br>
+The generated csv files will all be exported to a single folder. The measurements acquired are csved into CSVs.<br>
+segmentation map used is indicated in the file name:
+- FILENAME_mc3.csv
+- FILENAME_mitotracker.csv
+- FILENAME_draq5.csv
+
+Make sure you move these into separate folders. This is very improtant before running the second step in the analysis
+
+
+## Step2_Combine_Filter_Bin
+The next step of the data is to combine all the scans belonging to the same well, followed by data filtering and binning.<br>
+This is carried by a single script designed to make your life easier :bowtie: <br>
+Locate ProcessRawBindingCurves.m scripts located in Step2_Combine_Filter_Bin <br>
+Update the following parameters
+- MIN_ROI_SIZE used in the constructing binding curves
+- 'myFolder' path to generated CSV files from Step 1 (_mc3.csv,_mitotracker.csv,_draq5.csv seperated into different folders)
+-  'untransfected_well_path' path to untransfected well to estimate the A:D ratio offset and donor intensity boundaries
+
+Run scripts and get your pretty binding curves. 
+### Script Optimization
+You can change the Bins parameters to better fit your expression conditions and microscopy settings
