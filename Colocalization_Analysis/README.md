@@ -30,8 +30,10 @@ You can see examples of these files in the Example data folder.
 - Run the  "ConvertImageNumber_toWellID.m"  code
 - RESULT: you will see nothing* however the code has generated the matching ROW/column ID for your dataset. It will be located in MATLAB > Workspace (can show in Layout > check “workspace”).   In workspace, listed are Values.  Next to “{} test” see “#### x1 cell”, which is the number of rows in your “Colocalization.csv”.  Note if you are running our example you should see {} test =  441545x1 cell.  Click the #### x1 cell and it will open a new window.  Ie. <br>
 ![plot](./screenshots/Picture2.png)
-New window will appear in MATLAB.  Highlight this entire column and copy these results. (Note it may take a few mins if your dataset is large).<br>
+<br>
+- New window will appear in MATLAB.  Highlight this entire column and copy these results. (Note it may take a few mins if your dataset is large).<br>
 ![plot](./screenshots/Picture3.png)
+<br>
 - Next open your “Colocalization.csv” file in Microsoft Excel.  Save a new file as “Colocalization.xlsx”. Delete the duplicate of the first row.  Then paste the column you copied to the right of your data.  
 ![plot](./screenshots/Picture4.png)
 Insert a title “Row” “column” so data lines up with the number of rows you have in your dataset.   Use “Text to column function” in Excel to isolate the row and column number.  Ie. We do this in 3 steps here.<br>
