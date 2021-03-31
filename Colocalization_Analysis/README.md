@@ -34,8 +34,9 @@ You can see examples of these files in the Example data folder.
 - New window will appear in MATLAB.  Highlight this entire column and copy these results. (Note it may take a few mins if your dataset is large).<br>
 ![plot](./screenshots/Picture3.png)
 <br>
-- Next open your “Colocalization.csv” file in Microsoft Excel.  Save a new file as “Colocalization.xlsx”. Delete the duplicate of the first row.  Then paste the column you copied to the right of your data.  
+- Next open your “Colocalization.csv” file in Microsoft Excel.  Save a new file as “Colocalization.xlsx”. Delete the duplicate of the first row.  Then paste the column you copied to the right of your data.<br>  
 ![plot](./screenshots/Picture4.png)
+<br>
 Insert a title “Row” “column” so data lines up with the number of rows you have in your dataset.   Use “Text to column function” in Excel to isolate the row and column number.  Ie. We do this in 3 steps here.<br>
 ![plot](./screenshots/Picture5.png) 
 <br>
