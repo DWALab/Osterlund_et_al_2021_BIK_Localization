@@ -31,7 +31,7 @@ Open ISSWatershedSegmentation.m and optimize the following parameters:
 For proteins with consistent expression across the entire cell, consider using larger log_sigma values
 - Pixel_threshold is the minimum size of small objects in the image. 
 
-##Step2_data_binning
+## Step2_data_binning
 The next part of the scirpt is used to combine the ROI measurements and bin them to generate protein-protein binding curves.
 Open LoopThroughDataToBin.m located in the Step2_data_binning folder. 
 The scripts will also require you to provide paths to the measurement CSVs generated in the first step. 
