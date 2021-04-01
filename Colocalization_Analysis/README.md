@@ -72,8 +72,7 @@ paste between ‘ ‘
 And update the excel_filename and sheet_name corresponding to your Platemap
 ![plot](./screenshots/Picture12.png) 
 <br><br><br>
-![plot](./screenshots/Picture13.png) 
-<br><br><br>
+
 **NOTE** <br>
 This script can be adapted to data output from another Cellprofiler script as follows.  
 You would need to tell the script at these parameters in order to get the right column location of the data.
