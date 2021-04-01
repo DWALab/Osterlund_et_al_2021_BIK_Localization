@@ -16,7 +16,7 @@ this contains the filename (RowColumnFeild of view) and lists corresponding Imag
 Contains ROI colocalization data for BR,BG,GR channels, size of ROI, median and mean Venus, Cyan and Red channel intensity. 
 However, the exported data does not have my column/row information.  This is our second step in the analysis. 
 
-#STEP 2: Get Row/Column identity for full dataset
+# STEP 2: Get Row/Column identity for full dataset
 To prepare data to run through open Both 1) "20191010Image" and 2) "20191010Mask_Size_OneNuclei" and duplicate the first
 row * to add a second title row in the data.  Then save these files as, "filename.csv" and "Colocalization.csv", respectively. 
 ie. See duplicate title:<br>
@@ -47,14 +47,14 @@ Insert a title “Row” “column” so data lines up with the number of rows y
 <br><br><br>
 ![plot](./screenshots/Picture7.png) 
 <br><br><br>
-Results 
+- Results 
 ![plot](./screenshots/Picture8.png)
 <br><br><br>
 Then, replace the column “Image number” “Object number” with data from Row and Column ID.  Ie.<br>
 ![plot](./screenshots/Picture9.png)
 <br><br><br>
 Save. “Colocalization.xlsx”
-STEP 3: Filter and plot colocalization data
+# STEP 3: Filter and plot colocalization data
 Preparation: Create platemap
 Use this exact format. The next MATLAB script uses this text data to find/sort the data. Finds unique cell line + red channel combinations.  Then it gets all unique names in the Green channel.  And plots the data.  If cyan channel is “none” the script will only plot the Green:Red colocalization data. <br>
 ![plot](./screenshots/Picture10.png) 
