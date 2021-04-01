@@ -38,7 +38,7 @@ You can see examples of these files in the Example data folder.
 ![plot](./screenshots/Picture4.png)
 <br>
 Insert a title “Row” “column” so data lines up with the number of rows you have in your dataset.   Use “Text to column function” in Excel to isolate the row and column number.  Ie. We do this in 3 steps here.<br>
-![plot](./screenshots/Picture5.png) 
+![plot](./screenshots/Picture5.png)
 <br>
 ![plot](./screenshots/Picture6.png) 
 <br>
