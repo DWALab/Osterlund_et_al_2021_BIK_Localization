@@ -93,15 +93,15 @@ Note we decided on our filters by opening the raw data - looking at untransfecte
 ![plot](./screenshots/Picture18.png) 
 <br><br><br>
 Black arrow points to where data falls for the untransfected cells.  We set threshold >0.001 and plot data for only Venus positive cells.
--Run the analysis.  The script will export data to the same folder as the “FilterAndPlotColocalizationData.m” script. <br>
+- Run the analysis.  The script will export data to the same folder as the “FilterAndPlotColocalizationData.m” script. <br>
 ![plot](./screenshots/Picture20.png) 
 <br><br><br>
-Name of the file = “Cell line_what is in Red channel_what 2 channels are colocalized” 
-In this example above, we have MCF7 cells, stably expressing mCherry-PSSI and the data plotted is the colocalization of the Green and Red channels.
+- Name of the file = “Cell line_what is in Red channel_what 2 channels are colocalized” 
+In this example above, we have MCF7 cells, stably expressing mCherry-PSSI and the data plotted is the colocalization of the Green and Red channels. <br>
 The resulting data is exported in 3 formats :  EPS, JPG and Summarized Results in Microsoft Excel<br>
 ![plot](./screenshots/Picture21.png) 
 <br><br><br>
-See example data Box plot is created only if you have more than 50 data points. The Red cross is the “Mode”.<br>
+- See example data Box plot is created only if you have more than 50 data points. The Red cross is the “Mode”.<br>
 ![plot](./screenshots/Picture22.png) 
 <br><br><br>
 Where Column:<br>
